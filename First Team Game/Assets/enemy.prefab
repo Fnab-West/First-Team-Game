@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2544454672357839352}
   - component: {fileID: 2544454672357839359}
   - component: {fileID: 2544454672357839356}
+  - component: {fileID: 1596806487900368938}
   m_Layer: 8
   m_Name: enemy
   m_TagString: Untagged
@@ -99,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   rb: {fileID: 2544454672357839356}
-  speed: 100
+  speed: 130
 --- !u!114 &2544454672357839352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,3 +165,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1596806487900368938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2544454672357839353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed1ef158aed35ef4da1fe1c1d09de057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 1.7
+  player:
+    serializedVersion: 2
+    m_Bits: 512
+  timer: 0
+  Damage: 20

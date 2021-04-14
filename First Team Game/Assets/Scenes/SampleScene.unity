@@ -883,7 +883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 2544454672357839353, guid: a9bcc5ce35c7f5f4f8a02d3f8672e356, type: 3}
-  player: {fileID: 635302708}
+  player: {fileID: 250959336}
   timer: 0
 --- !u!4 &1840829302
 Transform:
